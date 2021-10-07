@@ -1,0 +1,20 @@
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri": "mysql://root:@localhost/codingthunder",
+    "prod_uri": "mysql://username:password@localhost/codingthunder",
+    "fb_url": "https://facebook.com/",
+    "twitter_url": "https://twitter.com/",
+    "github_url": "https://github.com/",
+    "telegram_url": "https://t.me/codershell",
+    "gmail-user": "",
+    "gmail-password": "",
+    "no_of_posts": 2,
+    "admin_user": "",
+    "admin_password": "",
+    "upload_img_location": "",
+    "upload_file_location": ""
+
+  }
+}

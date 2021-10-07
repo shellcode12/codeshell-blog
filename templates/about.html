@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+{% block body %}
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url(      {{ url_for('static', filename='assets/img/about-bg.jpg')}}    )">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1>About</h1>
+                            <span class="subheading">This is who we are.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>codeShell</p>
+                        <p>A small effort for better coding community.</p>
+                        <p>This website is created by Balendu Rawat as main developer with Devyush Raturi as content and community manager.<br>We are CSE undergraduates from THDC-IHET , and are CP and development enthusiast .
+                        <br>The main languages and frameworks with which we work are html , css , js ,bootstrap , tailwind , wordpress , java , python , flask , django and more.<br>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Footer-->
+        {% endblock %}
